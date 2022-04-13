@@ -1,0 +1,12 @@
+﻿Apr  8 2022 12:00PM - Abaco  -  c:\SQL_Backup\Abaco_202204081200.bak  -  Abaco_202204081200
+Processed 472 pages for database 'Abaco', file 'GNet' on file 1.
+Processed 2 pages for database 'Abaco', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 474 pages in 0.290 seconds (12.744 MB/sec).
+Apr  8 2022 12:00PM - Licencias  -  c:\SQL_Backup\Licencias_202204081200.bak  -  Licencias_202204081200
+Processed 312 pages for database 'Licencias', file 'Licencias' on file 1.
+Processed 2 pages for database 'Licencias', file 'Licencias_log' on file 1.
+BACKUP DATABASE successfully processed 314 pages in 0.369 seconds (6.628 MB/sec).
+Apr  8 2022 12:00PM - ManejoDeErrores  -  c:\SQL_Backup\ManejoDeErrores_202204081200.bak  -  ManejoDeErrores_202204081200
+Processed 7912 pages for database 'ManejoDeErrores', file 'ManejoDeErrores' on file 1.
+Processed 2 pages for database 'ManejoDeErrores', file 'ManejoDeErrores_log' on file 1.
+BACKUP DATABASE successfully processed 7914 pages in 0.853 seconds (72.478 MB/sec).

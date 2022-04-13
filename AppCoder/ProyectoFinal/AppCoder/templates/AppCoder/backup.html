@@ -1,0 +1,68 @@
+{% extends 'appcoder/padre.html' %}
+{% load static %}
+
+{% block ContenidoqCambia %}
+<!--<body>
+     <header class="masthead">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center text-white">
+                         Page heading
+                        <h1 class="mb-5">Backups</h1>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>-->
+
+        </form>
+        <p></p>
+        <p></p>
+        <p></p>
+        <h3>Listado de backups</h3>
+        <p></p>
+        <p></p>
+            <table>
+                <thead>
+                    <tr>
+                
+                        <td>fecha</td>
+                        <td>empresa</td>
+                        <td>ruta</td>
+                        <td>estado</td>
+                
+
+                </tr>
+                </thead>
+                <tbody>
+                
+                    {% if backups %}
+                
+                        {% for f  in backups  %}
+                        <tr>
+                            <td>{{f.fecha}}</td>
+                            <td>{{f.empresa}}</td>
+                            <td>{{f.ruta}}</td>
+                            <td>{{f.estado}}</td>
+                            
+                            
+                    
+
+                        {% endfor %}
+                        </tr>
+                    
+                    {% else %}
+                        <h1>no hay registros</h1>
+                    {% endif %}
+
+            </tbody>
+        </table>
+        <p></p>
+        <p>Procesado: {{time}}</p>
+
+        <!--
+</body> -->
+{% endblock ContenidoqCambia %}

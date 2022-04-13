@@ -1,0 +1,76 @@
+Apr  8 2022 12:00PM - Abaco  -  c:\SQL_Backup\Abaco_202204081200.bak  -  Abaco_202204081200
+Processed 472 pages for database 'Abaco', file 'GNet' on file 1.
+Processed 2 pages for database 'Abaco', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 474 pages in 0.290 seconds (12.744 MB/sec).
+Apr  8 2022 12:00PM - Licencias  -  c:\SQL_Backup\Licencias_202204081200.bak  -  Licencias_202204081200
+Processed 312 pages for database 'Licencias', file 'Licencias' on file 1.
+Processed 2 pages for database 'Licencias', file 'Licencias_log' on file 1.
+BACKUP DATABASE successfully processed 314 pages in 0.369 seconds (6.628 MB/sec).
+Apr  8 2022 12:00PM - ManejoDeErrores  -  c:\SQL_Backup\ManejoDeErrores_202204081200.bak  -  ManejoDeErrores_202204081200
+Processed 7912 pages for database 'ManejoDeErrores', file 'ManejoDeErrores' on file 1.
+Processed 2 pages for database 'ManejoDeErrores', file 'ManejoDeErrores_log' on file 1.
+BACKUP DATABASE successfully processed 7914 pages in 0.853 seconds (72.478 MB/sec).
+Apr  8 2022 12:00PM - GNet_Brilla  -  c:\SQL_Backup\GNet_Brilla_202204081200.bak  -  GNet_Brilla_202204081200
+Processed 1328 pages for database 'GNet_Brilla', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Brilla', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 1330 pages in 0.295 seconds (35.197 MB/sec).
+Apr  8 2022 12:00PM - GNet_Demo  -  c:\SQL_Backup\GNet_Demo_202204081200.bak  -  GNet_Demo_202204081200
+Processed 2216 pages for database 'GNet_Demo', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Demo', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 2218 pages in 0.181 seconds (95.695 MB/sec).
+Apr  8 2022 12:00PM - GNetSinc_LM  -  c:\SQL_Backup\GNetSinc_LM_202204081200.bak  -  GNetSinc_LM_202204081200
+Processed 60568 pages for database 'GNetSinc_LM', file 'GNet' on file 1.
+Processed 2 pages for database 'GNetSinc_LM', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 60570 pages in 6.176 seconds (76.618 MB/sec).
+Apr  8 2022 12:00PM - GNet_Fontanella  -  c:\SQL_Backup\GNet_Fontanella_202204081200.bak  -  GNet_Fontanella_202204081200
+Processed 952 pages for database 'GNet_Fontanella', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Fontanella', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 954 pages in 0.175 seconds (42.547 MB/sec).
+Apr  8 2022 12:00PM - CatalogoWeb  -  c:\SQL_Backup\CatalogoWeb_202204081200.bak  -  CatalogoWeb_202204081200
+Processed 360 pages for database 'CatalogoWeb', file 'CatalogoWeb' on file 1.
+Processed 2 pages for database 'CatalogoWeb', file 'CatalogoWeb_log' on file 1.
+BACKUP DATABASE successfully processed 362 pages in 0.117 seconds (24.109 MB/sec).
+Apr  8 2022 12:00PM - GNet_Dementia  -  c:\SQL_Backup\GNet_Dementia_202204081200.bak  -  GNet_Dementia_202204081200
+Processed 912 pages for database 'GNet_Dementia', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Dementia', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 914 pages in 0.137 seconds (52.067 MB/sec).
+Apr  8 2022 12:00PM - GNet_Treo  -  c:\SQL_Backup\GNet_Treo_202204081200.bak  -  GNet_Treo_202204081200
+Processed 7896 pages for database 'GNet_Treo', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Treo', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 7898 pages in 1.211 seconds (50.946 MB/sec).
+Apr  8 2022 12:00PM - GNet_Passarini  -  c:\SQL_Backup\GNet_Passarini_202204081200.bak  -  GNet_Passarini_202204081200
+Processed 1072 pages for database 'GNet_Passarini', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Passarini', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 1074 pages in 0.515 seconds (16.278 MB/sec).
+Apr  8 2022 12:00PM - GNet_Inter  -  c:\SQL_Backup\GNet_Inter_202204081200.bak  -  GNet_Inter_202204081200
+Processed 896 pages for database 'GNet_Inter', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Inter', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 898 pages in 0.136 seconds (51.531 MB/sec).
+Apr  8 2022 12:00PM - GNet_Costa  -  c:\SQL_Backup\GNet_Costa_202204081200.bak  -  GNet_Costa_202204081200
+Processed 1008 pages for database 'GNet_Costa', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Costa', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 1010 pages in 0.145 seconds (54.367 MB/sec).
+Apr  8 2022 12:00PM - GNet_Silux  -  c:\SQL_Backup\GNet_Silux_202204081200.bak  -  GNet_Silux_202204081200
+Processed 1072 pages for database 'GNet_Silux', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Silux', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 1074 pages in 0.116 seconds (72.269 MB/sec).
+Apr  8 2022 12:00PM - GNet_Optic  -  c:\SQL_Backup\GNet_Optic_202204081200.bak  -  GNet_Optic_202204081200
+Processed 2848 pages for database 'GNet_Optic', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Optic', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 2850 pages in 0.198 seconds (112.415 MB/sec).
+Apr  8 2022 12:00PM - GNet_Optic_anterior  -  c:\SQL_Backup\GNet_Optic_anterior_202204081200.bak  -  GNet_Optic_anterior_202204081200
+Processed 1728 pages for database 'GNet_Optic_anterior', file 'GNet_Optic_anterior' on file 1.
+Processed 2 pages for database 'GNet_Optic_anterior', file 'GNet_Optic_anterior_log' on file 1.
+BACKUP DATABASE successfully processed 1730 pages in 0.763 seconds (17.704 MB/sec).
+Apr  8 2022 12:00PM - CatalogoArticulosWEB  -  c:\SQL_Backup\CatalogoArticulosWEB_202204081200.bak  -  CatalogoArticulosWEB_202204081200
+Processed 4720 pages for database 'CatalogoArticulosWEB', file 'GNet' on file 1.
+Processed 2 pages for database 'CatalogoArticulosWEB', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 4722 pages in 0.298 seconds (123.769 MB/sec).
+Apr  8 2022 12:00PM - GNet_Brilla2  -  c:\SQL_Backup\GNet_Brilla2_202204081200.bak  -  GNet_Brilla2_202204081200
+Processed 1344 pages for database 'GNet_Brilla2', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_Brilla2', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 1346 pages in 0.225 seconds (46.703 MB/sec).
+Apr  8 2022 12:00PM - GNet_CostaMoron  -  c:\SQL_Backup\GNet_CostaMoron_202204081200.bak  -  GNet_CostaMoron_202204081200
+Processed 928 pages for database 'GNet_CostaMoron', file 'GNet' on file 1.
+Processed 2 pages for database 'GNet_CostaMoron', file 'GNet_log' on file 1.
+BACKUP DATABASE successfully processed 930 pages in 0.709 seconds (10.237 MB/sec).
