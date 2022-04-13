@@ -7,7 +7,7 @@ from datetime import datetime
 import os 
 
 import re
-from .models import Articulos, backup
+from .models import backup
 # from .models import Curso, Familia, Profesor
 # from AppCoder.models import Profesor
 
@@ -94,10 +94,6 @@ def recuperar_articulos(request):
 def pedidoformulario(request):
 
 
-
-
-
-
     if request.method=="POST":
         nombre=request.POST["curso"]
         camada=request.POST["camada"]
@@ -105,11 +101,7 @@ def pedidoformulario(request):
         micurso.save()
         #return HttpResponse(f"se genero curso {micurso.nombre} y la camada {micurso.camada}")
         return render(request, "appcoder/cursos.html", {"nombre": nombre, "camada":camada})
-        
-        
-        # curso= Curso , 
-        # curso.save()
-        # return render (request, "AppCoder/inicio.html")
+
     return render(request, "AppCoder/pedidoformulario.html")
 
 
@@ -120,119 +112,27 @@ def bkp(request):
 
   
     for file in os.listdir(): 
-    
-        archivo = open(path + '/' + file, 'r')
-
-            #archivo = open(file_path,'r')
+        archivo = open(path + '/' + file, 'r')      
         lectura= archivo.read()
-        #return HttpResponse("----------------------"+ lectura)
-        
-
-
-
-
-
-
-
-    # #abro multiples txt
-
-    
-  
-  
-    # path = "c:\script"
-    # os.chdir(path) 
-  
-  
-  
-    # def read_text_file(file_path): 
-    #     with open(file_path, 'r') as f: 
-    #         print(f.read()) 
-  
-  
-#     for file in os.listdir(): 
-    
-#         if file.endswith(".log"): 
-#             #file_path = f"{path}\{file}"
-#             #file_path = "{path}\{file}"
-#         #return HttpResponse("se agrego backup:   " + file_path)
-        
-#             #read_text_file(file_path) 
-# ##################anterior a funcion
-#     # with ExitStack as stack:
-#     #     files = [stack.enter_context(open("C:\\script\\*.log",'r')) for fname in filenames]
-#     # # Do something with "files"   
-
-#             archivo = open(path + '/' + file, 'r')
-
-#             #archivo = open(file_path,'r')
-#             lectura= archivo.read()
-# # print(archivo.readable())
-# print (lectura)
-# fecha= lectura[3:15]
-# print (fecha)
-
-
-# try:
-#     found= re.search(fecha(.+?)successfully, string)
-#     print(found)
-# except:
-#     print("An exception occurred")
-
-
-#--------------------busca un texto en un string
-# patterns=(fecha, "successfully")
-
-# text=lectura
-# for pattern in patterns:
-#     print("buscando '%s' y '%s'"% (pattern,text), end="")
-#     if re.search(pattern,text):
-#         print("encontrado")
-#     else:
-#         print("no coincidencia")
-
-    #usa ---Resultado para agregar elemenso a la lista
         separador="---Resultado---"
         string_list=lectura.split(separador)
-    #print(string_list[1])
-    #print(type(string_list))
-    #--- de cada elemento de la lista, saco la fecha
-        #return HttpResponse("----------------------"+ string_list)
+
         lista_final=[]
         for x in range(len(string_list)):
             texto=string_list[x]
-            fecha= texto[2:21]
+            #fecha= texto[2:21]
             separador1="-"
             lista_datos=texto.split(separador1)
             lista_final.append(lista_datos)
-            #return HttpResponse("----------------------"+ fecha)
-        # empresa=lista_datos[1]
-        # print (empresa)
 
-            # print (lista_datos)
-        # separador1="-"
-        # lista_datos=texto.split(separador1)
-
-        # empresa=lista_datos[1]
-        # print (empresa)
-            #print("aca" + lista_final[0][0])
         lista_final.pop(0)
-    #print("aca1" + lista_final[0][0])
 
-    ###convertir la liusta en un diccionario
-    #key_list = ['fecha', 'empresa']
-    #value_list = ['Johnny', '27']
-
-        #dict_from_list = {}
-        #lista=[]
-    #for key in key_list:    
-    #for value in value_list:
-       
         for valor in range(len(lista_final)):   
             if "BACKUP DATABASE successfully processed" in lista_final[valor][3]:
                 resultado="satisfactorio"
             else:
                 resultado="revisar"
-
+            fecha= lista_final[valor][0]
             emp=lista_final[valor][1]
             ruta=lista_final[valor][2]
             estado=resultado
@@ -241,12 +141,12 @@ def bkp(request):
             
                 
             else:
-                # mibkp=backup.objects.filter(empresa=emp)
+
 
                 mibkp=backup(fecha=fecha, empresa=emp,ruta=ruta, estado=estado)
             
                 mibkp.save()
 
-            #return HttpResponse(f"se agrego el articulo  {emp} ")
+
     backups=backup.objects.all()
     return render(request, "AppCoder/backup.html",{"backups":backups,'time':datetime.now()})

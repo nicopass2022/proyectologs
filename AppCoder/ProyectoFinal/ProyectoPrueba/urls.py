@@ -30,5 +30,6 @@ urlpatterns = [
 #     path('recupera_familia/', recuperar_familia),
 #     #path('template/', probandotemplate),
     path('AppCoder/',include("AppCoder.urls")),
+    path('',include("AppCoder.urls")),
 #     path('familia/<nombre>/<apellido>/<dni>/<fecha_nacimiento>', agregafamiliar),
 ]
